@@ -1,0 +1,30 @@
+header{
+	font-family:"Dancing Script" , cursive;
+	margin:0px;
+	background-color:#5b7989;
+	border-radius:10px;
+	text-shadow:0px 2px 0px #02010a;
+}
+
+header, h1{
+	color: white;
+}
+#imagen1{
+	background-color:#02010a;
+	text-align:center;
+	width:100%;
+}
+
+
+
+#imagen2{
+	background-color:#02010a;
+ 	width:40%;
+ 	display:flex;
+ 	flex-grow: 2;
+}
+#imagen3{
+	background-color:#02010a;
+	width:40%;
+	flex-grow: 2;
+}
