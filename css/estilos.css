@@ -13,8 +13,9 @@ body{
 }
 
 header{
+	margin:0px 0px 0px 180px;
 	height:80px;
-	width:1500px;
+	width:1400px;
 	background-color:#5b7989;
 	border-radius:10px 10px 0px 0px;
 	text-shadow:0px 2px 0px #02010a;
@@ -55,7 +56,8 @@ header, h1{
 	color: white;
 }
 #paisaje{
-	width:1500px;
+	margin:0px 0px 0px 180px;
+	width:1400px;
 	background-color:#82c3a6;
 }
 
@@ -66,7 +68,9 @@ header, h1{
 
 
 #galeria{
-	width:1500px;
+	margin:0px 0px 0px 180px;
+	width:1400px;
+	height:450px;
 	background-color:#d5c75f;
  	display:flex;
  	flex-direction:row;
@@ -75,20 +79,23 @@ header, h1{
 
 
  .imagen2{
- 	width:50%;
+ 	width:40%;
+ 	margin:5px 0px 55px 200px;
  	float:left;
  
  }
 
  .imagen3{
- 	width:50%;
+ 	width:40%;
+ 	margin:5px 0px 55px 10px;
  	float:right;
 
  }
 
  footer{
+ 	margin:0px 0px 0px 180px;
  	clear:both;
- 	width:1500px;
+ 	width:1400px;
  	height:60px;
  	background-color:#C6d5c5;
  	border-radius:0px 0px 10px 10px;

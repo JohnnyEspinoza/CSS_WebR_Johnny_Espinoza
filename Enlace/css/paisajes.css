@@ -54,37 +54,53 @@ header nav ul li a{
 header, h1{
 	color: white;
 }
-#paisaje{
-	width:1500px;
-	background-color:#82c3a6;
-}
 
-.imagen1{
-	width:30%;
-	padding:20px 250px 0px 250px;
-}
-
-
-#galeria{
+article{
+	height: 400px;
 	width:1500px;
 	background-color:#d5c75f;
- 	display:flex;
- 	flex-direction:row;
- 	align-items:flex-end;
-  }
+}
+
+.linea1{
+	order:1;
+}
+
+.linea2{
+	order:2;
+}
+.linea3{
+	order:3;
+}
+
+.linea4{
+	order:4;
+}
+.linea5{
+	order:5;
+}
+
+.linea6{
+	order:6;
+}
 
 
- .imagen2{
+
+
+
+
+
+.contenedor{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.imagen2{
  	width:50%;
  	float:left;
  
  }
 
- .imagen3{
- 	width:50%;
- 	float:right;
-
- }
 
  footer{
  	clear:both;
