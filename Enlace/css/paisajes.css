@@ -27,7 +27,6 @@ header{
 	flex-wrap:wrap;
 	justify-content: space-between;
 	align-items:center;
-
 	
 }
 
@@ -56,52 +55,57 @@ header, h1{
 	color: white;
 }
 
-article{
+section{
+	text-align:center;
 	margin:0px 0px 0px 180px;
-	height: 870px;
+	height: 755px;
 	width:1400px;
 	background-color:#d5c75f;
+	position:fixed;
+	top:60px;
+	bottom:60px;
+}
+img{
+	margin:40px 10px 10px 30px;
+	border:1px solid white;
+	width:420px;
+	height: 300px;
 }
 
-.linea1{
-	order:1;
+#contenedor>div{
+	text-align:center;
+	padding:10px;
+	margin:10px;
+	width:50%;
 }
 
-.linea2{
-	order:2;
+#imagen1{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
 }
-.linea3{
-	order:3;
-}
-
-.linea4{
-	order:4;
-}
-.linea5{
-	order:5;
+#imagen2{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
 }
 
-.linea6{
-	order:6;
+#imagen3{
+	-webkit-filter:invert(100%);
+	filter:invert(100%);
+}
+#imagen4{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
 }
 
-
-
-
-
-
-
-.contenedor{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
+#imagen5{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
 }
 
-.imagen2{
- 	width:50%;
- 	float:left;
- 
- }
+#imagen6{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
 
 
  footer{
