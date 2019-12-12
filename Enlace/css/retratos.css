@@ -13,8 +13,9 @@ body{
 }
 
 header{
+	margin:0px 0px 0px 180px;
 	height:80px;
-	width:1500px;
+	width:1400px;
 	background-color:#5b7989;
 	border-radius:10px 10px 0px 0px;
 	text-shadow:0px 2px 0px #02010a;
@@ -26,7 +27,6 @@ header{
 	flex-wrap:wrap;
 	justify-content: space-between;
 	align-items:center;
-
 	
 }
 
@@ -54,42 +54,72 @@ header nav ul li a{
 header, h1{
 	color: white;
 }
-#paisaje{
-	width:1500px;
-	background-color:#82c3a6;
+
+.contenedor{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	margin:0px 0px 0px 180px;
+	height: 90%;
+	width:1400px;
+	background-color:#d5c75f;
+	position:fixed;
+	top:80px;
+	bottom:80px;
 }
+
+
+img{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	margin:30px 10px 0px 30px;
+	border:1px solid white;
+	width:420px;
+	height:300px;
+}
+
 
 .imagen1{
-	width:30%;
-	padding:20px 250px 0px 250px;
+	-webkit-filter:blur(20px);
+	filter:blur(20px);
+	
+}
+.imagen2{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	
+}
+
+.imagen3{
+	-webkit-filter:invert(1%);
+	filter:invert(1%);
+	
+}
+.imagen4{
+	-webkit-filter:sepia(80%);
+	filter:sepia(80%);
+	
+}
+
+.imagen5{
+	-webkit-filter:saturate(10%);
+	filter:saturate(10%);
+	
+}
+
+.imagen6{
+	-webkit-filter:brightness(50%);
+	filter:brightness(50%);
+	
 }
 
 
-#galeria{
-	width:1500px;
-	background-color:#d5c75f;
- 	display:flex;
- 	flex-direction:row;
- 	align-items:flex-end;
-  }
-
-
- .imagen2{
- 	width:50%;
- 	float:left;
- 
- }
-
- .imagen3{
- 	width:50%;
- 	float:right;
-
- }
-
  footer{
+ 	margin:0px 0px 0px 0px;
  	clear:both;
- 	width:1500px;
- 	height:60px;
+ 	width:1400px;
+ 	height:80px;
  	background-color:#C6d5c5;
  	border-radius:0px 0px 10px 10px;
  	position:fixed;

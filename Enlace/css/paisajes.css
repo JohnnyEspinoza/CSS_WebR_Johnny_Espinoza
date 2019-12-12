@@ -64,8 +64,8 @@ header, h1{
 	width:1400px;
 	background-color:#d5c75f;
 	position:fixed;
-	top:60px;
-	bottom:60px;
+	top:80px;
+	bottom:80px;
 }
 
 
@@ -73,7 +73,7 @@ img{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	margin:40px 10px 10px 30px;
+	margin:30px 10px 0px 30px;
 	border:1px solid white;
 	width:420px;
 	height:300px;
@@ -116,10 +116,10 @@ img{
 
 
  footer{
- 	margin:0px 0px 0px 180px;
+ 	margin:0px 0px 0px 0px;
  	clear:both;
  	width:1400px;
- 	height:60px;
+ 	height:80px;
  	background-color:#C6d5c5;
  	border-radius:0px 0px 10px 10px;
  	position:fixed;
