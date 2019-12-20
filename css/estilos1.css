@@ -1,0 +1,94 @@
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family:"Dancing Script", cursive, white;
+	background-color:#82c3a6;
+	height: auto;
+}
+
+
+header{
+	background-color:#5b7989;
+	font-family:"Dancing Script",cursive,white;
+	border-radius:10px 10px 0px 0px;
+	padding:5px;
+	text-align:left;
+	text-shadow:0px 2px 0px #02010a;
+	background-attachment: fixed;
+}
+
+.separador1{
+	height:10px;
+	clear:both;
+}
+
+.centro{
+	background:#82c3a6;
+	height: 350;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+}
+
+
+.one{
+	height: 350px
+	background:#d5c75f;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+
+}
+.separador2{
+	width:2%;
+	height:1px;
+	float:left;
+}
+
+.one img{
+	width:47%;
+	float:left;
+	display:block;
+	animation-duration:3s;
+}
+
+.imagen2{
+
+ 	margin:3px 3px 95px 3px;
+ 	text-align:center;
+ 	transition: all 1s;
+
+}
+.imagen2:hover{
+	transform:rotate(10deg);
+ 	box-shadow:3px 3px 3px 0 #82c3a6;
+ 	border:2px;
+}
+
+.imagen3{
+
+ 	margin:3px 3px 95px 3px;
+    float:right;
+}
+
+.imagen3:hover{
+	transform:translate(20px, -5px); 
+ 	box-shadow:3px 3px 3px 0 #82c3a6;
+ 	border:2px;
+}
+
+footer{
+	background-color:#C6d5c5;
+	font-family:"Dancing Script",cursive,white;
+	border-radius:0px 0px 10px 10px;
+	padding:80px;
+	text-align:left;
+	text-shadow:0px 2px 0px #02010a;
+}
